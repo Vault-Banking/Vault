@@ -98,7 +98,7 @@ if passprotect == "passprotect.main.vault":
       ch = input(str("Type 'get' to get money\nType 'save' to override your last save\n")).lower()
     
       if (ch == "get"):
-        ma = random.randint(5, 50)
+        ma = random.randint(10, 1010)
         print("you got $"+str(ma))
         m = m + ma
         print("you now have $"+str(m))
